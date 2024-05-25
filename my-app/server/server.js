@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 
 
-mongoose.connect("mongodb+srv://225060056:72022180978@cluster0.mnspxsd.mongodb.net/myDatabase")
+mongoose.connect("connection string")
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.log(err));
 
